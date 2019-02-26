@@ -1,7 +1,8 @@
 #pragma once
-#include "card.h"
+#include "playerCard.h"
+
 class playerHomingCard :
-	public card
+	public playerCard
 {
 private:
 	float _enemyX;
@@ -10,7 +11,6 @@ private:
 	bool _homingSwi;
 	float _homingCounter;
 
-	enemy* _enemy;
 public:
 	playerHomingCard();
 	~playerHomingCard();
@@ -18,7 +18,6 @@ public:
 	void update();
 	void render();
 
-	void setHomingInit(enemy* __enemy);
 	void transHoming();
 };
 

@@ -32,7 +32,7 @@ private:
 
 	int _score;
 
-	vector<card*> _vPlayerCard;
+	vector<playerCard*> _vPlayerCard;
 public:
 	player();
 	player(int, int);
@@ -75,7 +75,9 @@ public:
 	void playerMove();
 	void playerFire();
 	void playerRender();
+
 	void cardUpdate();
+	void cardCollision();
 	void cardRender();
 
 	RECT getRect();

@@ -1,6 +1,6 @@
 #pragma once
 #include "gameNode.h"
-#include "card.h"
+#include "enemyCardType.h"
 
 class enemy :
 	public gameNode
@@ -19,12 +19,14 @@ private:
 	float _damage;
 	float _angle;
 
+	float _attackTime;
+
 	enum AttackType { ATTATK1 = 1, ATTATK2 = 2, ATTATK3 = 3, ATTATK4 = 4, ATTATK5 = 5 };
 	AttackType _attackType;
 
 	enum State { PLAY = 1, INVINCIBILITY = 2, DEAD = 3 };
 	State _state;
-
+	float x;
 	float _my_x;
 	float _my_y;
 public:
@@ -54,6 +56,9 @@ public:
 	void setAngle(float angle) { _angle = angle; }
 	float getAngle() { return _angle; }
 
+	void setAttackTime(float attackTime) { _attackTime = attackTime; }
+	float getAttackTime() { return _attackTime; }
+
 	void setAttackType(AttackType type) { _attackType = type; }
 	AttackType getAttackType() { return _attackType; }
 
@@ -63,8 +68,8 @@ public:
 	void setDamage(int damage) { _damage = damage; }
 	int getDamage() { return _damage; }
 
-	virtual void enemyMove();
-	virtual void enemyFire();
+	virtual void enemyMove() {};
+	virtual enemyCard* enemyAttack(float x, float y) { return NULL; };
 
 	RECT getRect();
 

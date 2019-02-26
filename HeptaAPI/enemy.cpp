@@ -45,14 +45,6 @@ void enemy::release() {
 
 }
 
-void enemy::enemyMove() {
-
-}
-
-void enemy::enemyFire() {
-
-}
-
 RECT enemy::getRect() {
 	int shotRange = 2;
 

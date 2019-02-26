@@ -10,8 +10,8 @@ private:
 	vector<enemy*> _vEnemy;
 	vector<enemy*>::iterator _viEnemy;
 
-	vector<card*> _vEnemyCard;
-	vector<card*>::iterator _viEnemyCard;
+	vector<enemyCard*> _vEnemyCard;
+	vector<enemyCard*>::iterator _viEnemyCard;
 	
 	bool _phaseSwi[100];
 
@@ -34,12 +34,14 @@ public:
 
 	int getPhaseCount() { return _phaseCount; }
 
-	void enemyCreate();
-	void EnemyAttack();
-	void EnemyBulletFireAndCollision();
+	void phaseInit();
 
+	void enemyCreate();
+	void enemyAttack();
+	
 	void setMyUnitAdressLink(player* player) { _player = player; }
 
 	void phaseUpdate();
 	void enemyUpdate();
+	void enemyCardUpdate();
 };

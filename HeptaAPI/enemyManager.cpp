@@ -12,94 +12,49 @@ enemyManager::~enemyManager()
 {
 }
 
-void enemyManager::init() {
-	// 페이즈 초기화
+void enemyManager::init() 
+{
+	phaseInit();	
+}
+void enemyManager::update()
+{
+	phaseUpdate();
+	enemyUpdate();
+	enemyCardUpdate();
+}
+void enemyManager::render() 
+{
+	for (_viEnemy = _vEnemy.begin(); _viEnemy != _vEnemy.end(); ++_viEnemy) {
+		(*_viEnemy)->render();
+	}
+
+	for (_viEnemyCard = _vEnemyCard.begin(); _viEnemyCard != _vEnemyCard.end(); ++_viEnemyCard) {
+		(*_viEnemyCard)->render();
+	}
+}
+void enemyManager::release() {
+
+}
+
+void enemyManager::phaseInit()
+{
 	for (int i = 0; i < 100; i++) {
 		_phaseSwi[i] = false;
 	}
 
 	_phaseTime = 3;
 	_phaseCount = 0;
-	// 적 총알 초기화
-	/*while (true) {
-		bullet* EnemyBullet = new enemyBullet();
-		if (EnemyBullet->getBulletMax() <= _vEnemyBullet.size()) break;
-		EnemyBullet->init(WINSIZEX, WINSIZEY, 5, 10);
-		_vEnemyBullet.push_back(EnemyBullet);
-	}*/
 }
-void enemyManager::update() {
-	phaseUpdate();
-	enemyUpdate();
-	
-}
-void enemyManager::render() {
-	////몹
+
+void enemyManager::enemyAttack() {
 	for (_viEnemy = _vEnemy.begin(); _viEnemy != _vEnemy.end(); ++_viEnemy) {
-		(*_viEnemy)->render();
+		if ((*_viEnemy)->getState() == 1) {
+			enemyCard* _card = (*_viEnemy)->enemyAttack(_player->getX(), _player->getY());
+			if (_card != NULL) {
+				_vEnemyCard.push_back(_card);
+			}
+		}
 	}
-
-	////적 총알
-	//for (_viEnemyBullet = _vEnemyBullet.begin(); _viEnemyBullet != _vEnemyBullet.end(); ++_viEnemyBullet) {
-	//	(*_viEnemyBullet)->render();
-	//}
-}
-void enemyManager::release() {
-
-}
-
-void enemyManager::EnemyAttack() {
-	//// 보스 페이즈
-	//if (getFrmCount() % 30 == 0 && getFrmCount() > 0) {
-	//	if (phase_swi[4]) {
-	//		for (_viEnemy = _vEnemy.begin(); _viEnemy != _vEnemy.end(); ++_viEnemy) {
-	//			for (_viEnemyBullet = _vEnemyBullet.begin(); _viEnemyBullet != _vEnemyBullet.end(); ++_viEnemyBullet) {
-	//			}
-	//		}
-	//	}
-	//}
-
-	//// 중 보스 페이즈
-	//if (getFrmCount() % 50 == 0 && getFrmCount() > 0) {
-	//	if (phase_swi[3]) {
-	//		for (_viEnemy = _vEnemy.begin(); _viEnemy != _vEnemy.end(); ++_viEnemy) {
-	//			for (_viEnemyBullet = _vEnemyBullet.begin(); _viEnemyBullet != _vEnemyBullet.end(); ++_viEnemyBullet) {
-	//			}
-	//		}
-	//	}
-	//}
-	//if (getFrmCount() % 70 == 0 && getFrmCount() > 0) {
-	//	for (_viEnemy = _vEnemy.begin(); _viEnemy != _vEnemy.end(); ++_viEnemy) {
-	//		for (_viEnemyBullet = _vEnemyBullet.begin(); _viEnemyBullet != _vEnemyBullet.end(); ++_viEnemyBullet) {
-	//			if (!(*_viEnemyBullet)->getIsFire()) {
-	//				(*_viEnemyBullet)->setX((*_viEnemy)->getcX());
-	//				(*_viEnemyBullet)->setY((*_viEnemy)->getY() + (*_viEnemy)->getSizeY());
-	//				(*_viEnemyBullet)->AngleAutoSet(_myUnit->getcX(), _myUnit->getcY());
-	//				(*_viEnemyBullet)->setIsFire(true);
-	//				break;
-	//			}
-	//		}
-	//	}
-	//}
-}
-
-void enemyManager::EnemyBulletFireAndCollision() {
-	//적 총알
-	//for (_viEnemyBullet = _vEnemyBullet.begin(); _viEnemyBullet != _vEnemyBullet.end(); ++_viEnemyBullet) {
-	//	if (!(*_viEnemyBullet)->getIsFire()) continue;
-
-	//	(*_viEnemyBullet)->update();
-	//	if (!(*_viEnemyBullet)->getIsFire()) continue;
-
-	//	//_myUnit
-	//	if ((*_viEnemyBullet)->collision(_myUnit->getRect())) {
-	//		(*_viEnemyBullet)->reset();
-	//		_myUnit->hpHit((*_viEnemyBullet)->getDamage());
-	//		if (_myUnit->hpCheck()) {
-	//			// 게임 오버
-	//		}
-	//	}
-	//}
 }
 
 void enemyManager::enemyCreate()
@@ -193,6 +148,16 @@ void enemyManager::enemyUpdate()
 		_vEnemy[i]->update(_player->getX(), _player->getY());
 		if (_vEnemy[i]->getState() == 3) {
 			_vEnemy.erase(_vEnemy.begin() + i);
+		}
+	}
+	enemyAttack();
+}
+void enemyManager::enemyCardUpdate()
+{
+	for (int i = 0; i < _vEnemyCard.size(); i++) {
+		_vEnemyCard[i]->update();
+		if (!_vEnemyCard[i]->getIsFire()) {
+			_vEnemyCard.erase(_vEnemyCard.begin() + i);
 		}
 	}
 }

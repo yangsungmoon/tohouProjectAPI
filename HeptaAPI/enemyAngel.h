@@ -10,7 +10,7 @@ public:
 	void render();
 
 	void enemyMove();
-	void enemyFire();
+	enemyCard* enemyAttack(float x, float y);
 };
 
 class enemyAngel2 :
@@ -23,6 +23,6 @@ public:
 	void render();
 
 	void enemyMove();
-	void enemyFire();
+	enemyCard* enemyAttack();
 };
 

@@ -121,12 +121,12 @@ void player::playerMove()
 void player::playerFire()
 {
 	float angle = 3.14 / 72;
-	float speed = 2000.0f;
-	card* _playerCard;
-	enemy* __enemy = NULL;
+	float speed = 100.0f;
+	playerCard* _playerCard;
+	enemy* enemyTarget = NULL;
 
 	for (int i = 0; i < _em->getvEnemy().size(); i++) {
-		__enemy = _em->getvEnemy().at(i);
+		enemyTarget = _em->getvEnemy().at(i);
 		break;
 	}
 	switch (getAttackType()) {
@@ -145,11 +145,11 @@ void player::playerFire()
 
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 + 10), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 - 10), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 	}
 	break;
@@ -164,11 +164,11 @@ void player::playerFire()
 
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 + 10), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 - 10), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 	}
 	break;
@@ -186,11 +186,11 @@ void player::playerFire()
 
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 + 10), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 - 10), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 	}
 	break;
@@ -208,20 +208,20 @@ void player::playerFire()
 
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 + 10), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 - 10), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 + 20), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 		_playerCard = new playerHomingCard();
 		_playerCard->init(getX(), getY(), speed, angle * (36 - 20), 10);
-		_playerCard->setHomingInit(__enemy);
+		_playerCard->setHomingInit(enemyTarget);
 		_vPlayerCard.push_back(_playerCard);
 	}
 	break;
@@ -248,6 +248,8 @@ void player::cardUpdate()
 			_vPlayerCard.erase(_vPlayerCard.begin()+i);
 		}
 	}
+
+	cardCollision();
 }
 
 void player::cardRender() 
@@ -284,4 +286,23 @@ bool player::hpCheck() {
 	}
 
 	return false;
+}
+
+void player::cardCollision() 
+{
+	vector<enemy*> _tempEnemy = _em->getvEnemy();
+	for (int i = 0; i < _vPlayerCard.size(); i++)
+	{
+		if (_vPlayerCard[i]->getIsFire())
+		{
+			for (int j = 0; j < _tempEnemy.size(); j++)
+			{
+				if (_vPlayerCard[i]->isObjectCollision(_tempEnemy[j]->getRect()))
+				{
+					_vPlayerCard[i]->setIsFire(false);
+					break;
+				}
+			}
+		}
+	}
 }

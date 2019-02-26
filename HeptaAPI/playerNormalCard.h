@@ -1,13 +1,13 @@
 #pragma once
-#include "card.h"
+#include "playerCard.h"
+
 class playerNormalCard :
-	public card
+	public playerCard
 {
 public:
 	playerNormalCard();
 	~playerNormalCard();
 
-	void update();
 	void render();
 };
 
