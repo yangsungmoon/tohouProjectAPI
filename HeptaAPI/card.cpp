@@ -21,15 +21,15 @@ void card::init(float x, float y, float speed, float angle, int damage)
 }
 void card::update()
 {
-	float tempX = _x;
+	/*float tempX = _x;
 	float tempY = _y;
 
 	_x = _x + cosf(_angle) * _speed * TIMEMANAGER->getElapsedTime();
 	_y = _y + -sinf(_angle) * _speed * TIMEMANAGER->getElapsedTime();
 
-	if (isCollision()) {
+	if (isWindowCollision()) {
 		_isFire = false;
-	}
+	}*/
 }
 void card::render()
 {
@@ -39,7 +39,7 @@ void card::release()
 {
 
 }
-bool card::isCollision()
+bool card::isWindowCollision()
 {
 	if (GAMESCREENLEFT > _x || _x > GAMESCREENRIGHT ||
 		GAMESCREENTOP > _y || _y > GAMESCREENBOTTOM)
@@ -68,3 +68,25 @@ float card::calcAngle(float _tx, float _ty)
 	*/
 	return angle;
 }
+
+bool card::isObjectCollision(RECT rc)
+{
+	RECT _myRc = {
+		_x - _width / 2,
+		_y - _height / 2,
+		_x + _width / 2,
+		_y + _height / 2
+	};
+
+	RECT temp;
+
+	if (IntersectRect(&temp, &_myRc, &rc)) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+
+

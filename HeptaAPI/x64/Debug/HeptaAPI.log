@@ -3,41 +3,6 @@ c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): w
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  animation.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  background.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\background.cpp(31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  button.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\button.h(68): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\button.h(69): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\button.h(70): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\button.cpp(23): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\button.cpp(24): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\button.cpp(46): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\button.cpp(47): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  cameraManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\cameramanager.cpp(26): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\cameramanager.cpp(27): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\cameramanager.cpp(59): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\cameramanager.cpp(60): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\cameramanager.cpp(65): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\cameramanager.cpp(70): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\cameramanager.cpp(82): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   card.cpp
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -52,36 +17,6 @@ c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): w
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  database.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  dialogue.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.cpp(17): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.cpp(45): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.cpp(59): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  effect.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\effect.cpp(33): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  effectManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  endingScene.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\endingscene.cpp(37): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   enemy.cpp
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -130,72 +65,6 @@ c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\gamenode.cpp(102)
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\gamenode.cpp(103): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\gamenode.cpp(91): warning C4101: 'hdc' :참조되지 않은 지역 변수입니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\gamenode.cpp(92): warning C4101: 'ps' :참조되지 않은 지역 변수입니다.
-  groundDestroyManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\grounddestroymanager.cpp(27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\grounddestroymanager.cpp(28): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\grounddestroymanager.cpp(29): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\grounddestroymanager.cpp(39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\grounddestroymanager.cpp(40): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\grounddestroymanager.cpp(41): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\grounddestroymanager.cpp(74): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\grounddestroymanager.cpp(75): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  image.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(97): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(161): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(230): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(296): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(380): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(379): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(394): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(393): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(593): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(599): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(604): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\image.cpp(745): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  imageManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  iniDataManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\inidatamanager.cpp(48): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\inidatamanager.cpp(72): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\inidatamanager.cpp(91): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
-  코드를 생성하고 있습니다...
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\inidatamanager.cpp(81): warning C4172: 지역 변수 또는 임시: data의 주소를 반환하고 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\collision.cpp(41): warning C4715: 'HEPTA_UTIL::isCollisionReaction': 모든 제어 경로에서 값을 반환하지는 않습니다.
-  컴파일하고 있습니다...
-  keyAniManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  keyManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  OpeningScene.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\openingscene.cpp(44): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   player.cpp
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -262,62 +131,6 @@ c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\player.h(56): war
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\player.h(67): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\player.h(68): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\playscene.cpp(54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  progressBar.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\progressbar.cpp(31): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\progressbar.cpp(33): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\progressbar.cpp(77): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\progressbar.cpp(111): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\progressbar.cpp(121): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\progressbar.cpp(147): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  sceneManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  soundManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\soundmanager.cpp(182): warning C4101: 'isPlay' :참조되지 않은 지역 변수입니다.
-  stdafx.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  timeManager.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\timemanager.cpp(54): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\timemanager.cpp(57): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\timemanager.cpp(60): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  timer.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  txtData.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\txtdata.cpp(41): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\txtdata.cpp(97): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' 선언을 참조하십시오.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\txtdata.cpp(100): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' 선언을 참조하십시오.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\txtdata.cpp(93): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
-  utils.cpp
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(56): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   winMain.cpp
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\dialogue.h(53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -332,3 +145,4 @@ c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\player.h(67): war
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\player.h(68): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\winmain.cpp(107): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
+c:\users\yang\desktop\tohouprojectapi\tohouprojectapi\heptaapi\collision.cpp(41): warning C4715: 'HEPTA_UTIL::isCollisionReaction': 모든 제어 경로에서 값을 반환하지는 않습니다.

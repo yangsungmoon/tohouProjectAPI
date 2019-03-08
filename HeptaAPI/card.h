@@ -1,6 +1,5 @@
 #pragma once
 #include "gameNode.h"
-#include "enemy.h"
 
 class card :
 	public gameNode
@@ -52,10 +51,8 @@ public:
 	bool getIsFire() { return _isFire; }
 	void setIsFire(bool swi) { _isFire = swi; }
 
-	bool isCollision();
+	bool isWindowCollision();
+	bool isObjectCollision(RECT rc);
 
-	// 유도용 빈 함수
-	virtual void setHomingInit(enemy* _enemy) {};
 	float calcAngle(float _tx, float _ty);
 };
-
