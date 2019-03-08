@@ -121,7 +121,7 @@ void player::playerMove()
 void player::playerFire()
 {
 	float angle = 3.14 / 72;
-	float speed = 100.0f;
+	float speed = 1000.0f;
 	playerCard* _playerCard;
 	enemy* enemyTarget = NULL;
 
