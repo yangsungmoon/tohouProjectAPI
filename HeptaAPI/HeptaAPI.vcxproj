@@ -23,7 +23,7 @@
     <ProjectGuid>{F39B91C5-71CC-4C24-8A77-9142B3B4B9B8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>sgaassignment15대포포신</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -149,6 +149,8 @@
     <ClCompile Include="endingScene.cpp" />
     <ClCompile Include="enemy.cpp" />
     <ClCompile Include="enemyAngel.cpp" />
+    <ClCompile Include="enemyCard.cpp" />
+    <ClCompile Include="enemyCardType.cpp" />
     <ClCompile Include="enemyManager.cpp" />
     <ClCompile Include="gameNode.cpp" />
     <ClCompile Include="groundDestroyManager.cpp" />
@@ -159,6 +161,7 @@
     <ClCompile Include="keyManager.cpp" />
     <ClCompile Include="OpeningScene.cpp" />
     <ClCompile Include="player.cpp" />
+    <ClCompile Include="playerCard.cpp" />
     <ClCompile Include="playerHomingCard.cpp" />
     <ClCompile Include="playerNormalCard.cpp" />
     <ClCompile Include="playGround.cpp" />
@@ -189,6 +192,8 @@
     <ClInclude Include="endingScene.h" />
     <ClInclude Include="enemy.h" />
     <ClInclude Include="enemyAngel.h" />
+    <ClInclude Include="enemyCard.h" />
+    <ClInclude Include="enemyCardType.h" />
     <ClInclude Include="enemyManager.h" />
     <ClInclude Include="gameNode.h" />
     <ClInclude Include="groundDestroyManager.h" />
@@ -199,6 +204,7 @@
     <ClInclude Include="keyManager.h" />
     <ClInclude Include="OpeningScene.h" />
     <ClInclude Include="player.h" />
+    <ClInclude Include="playerCard.h" />
     <ClInclude Include="playerHomingCard.h" />
     <ClInclude Include="playerNormalCard.h" />
     <ClInclude Include="playGround.h" />

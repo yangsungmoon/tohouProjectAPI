@@ -205,7 +205,16 @@
       <Filter>playGround\player</Filter>
     </ClInclude>
     <ClInclude Include="enemyAngel.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyCardType.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="playerCard.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyCard.h">
+      <Filter>playGround\enemy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -318,7 +327,16 @@
       <Filter>playGround\player</Filter>
     </ClCompile>
     <ClCompile Include="enemyAngel.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyCardType.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="playerCard.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyCard.cpp">
+      <Filter>playGround\enemy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
