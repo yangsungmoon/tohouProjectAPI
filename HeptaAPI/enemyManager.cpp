@@ -156,8 +156,17 @@ void enemyManager::enemyCardUpdate()
 {
 	for (int i = 0; i < _vEnemyCard.size(); i++) {
 		_vEnemyCard[i]->update();
+		if(_player->getState() == 1){
+			if (_vEnemyCard[i]->isObjectCollision(_player->getRect())) {
+				_vEnemyCard[i]->setIsFire(false);
+				_player->setHit(true);
+			}
+		}
+
 		if (!_vEnemyCard[i]->getIsFire()) {
 			_vEnemyCard.erase(_vEnemyCard.begin() + i);
 		}
 	}
+
+	
 }

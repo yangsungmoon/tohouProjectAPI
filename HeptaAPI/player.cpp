@@ -27,6 +27,8 @@ HRESULT player::init(int x, int y)
 	_damage = 1;
 	_state = INVINCIBILITY;
 
+	_invincibilityTime = 2;
+	_hit = false;
 	_score = 0;
 
 	IMAGEMANAGER->addImage("Player", ".//images/ss.bmp", 27, 38, true, true, RGB(255, 0, 255));
@@ -35,8 +37,13 @@ HRESULT player::init(int x, int y)
 }
 void player::update()
 {
+	playerInvincibilityTime();
 	playerMove();
 	cardUpdate();
+
+	if (hpCheck()){
+		_state = DEAD;
+	}
 }
 void player::render()
 {
@@ -46,6 +53,16 @@ void player::render()
 void player::release()
 {
 
+}
+
+void player::playerInvincibilityTime() {
+	if(_state == INVINCIBILITY){
+		_invincibilityTime -= TIMEMANAGER->getElapsedTime();
+		if (_invincibilityTime < 0) {
+			_invincibilityTime = 2;
+			_state = PLAY;
+		}
+	}
 }
 
 void player::playerMove()
@@ -230,12 +247,13 @@ void player::playerFire()
 
 void player::playerRender()
 {
-	int width = IMAGEMANAGER->findImage("Player")->getWidth();
-	int height = IMAGEMANAGER->findImage("Player")->getHeight();
+	if(_state != DEAD){
+		int width = IMAGEMANAGER->findImage("Player")->getWidth();
+		int height = IMAGEMANAGER->findImage("Player")->getHeight();
 
-	IMAGEMANAGER->findImage("Player")->centerRender(getMemDC(), _x, _y, width, height);
-	//Rectangle(getMemDC(), _x- width / 2, _y - height /2, _x + width /2, _y + height /2);
-
+		IMAGEMANAGER->findImage("Player")->centerRender(getMemDC(), _x, _y, width, height);
+		//Rectangle(getMemDC(), _x- width / 2, _y - height /2, _x + width /2, _y + height /2);
+	}
 }
 
 void player::cardUpdate()
@@ -279,12 +297,14 @@ void player::hpHit(int damage) {
 }
 
 bool player::hpCheck() {
-	if (getHp() <= 0) {
-		//setDead(true);
-
-		return true;
+	if (_hit) {
+		_hit = false;
+		_hp -= 10;
+		if (_hp <= 0) {
+			return true;
+		}
 	}
-
+	
 	return false;
 }
 
@@ -300,6 +320,7 @@ void player::cardCollision()
 				if (_vPlayerCard[i]->isObjectCollision(_tempEnemy[j]->getRect()))
 				{
 					_vPlayerCard[i]->setIsFire(false);
+					_tempEnemy[j]->setHit(true);
 					break;
 				}
 			}

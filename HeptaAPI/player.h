@@ -14,6 +14,7 @@ private:
 	// 케릭터 설정
 	const int _width;
 	const int _height;
+	
 
 	int _maxHp;
 	int _hp;
@@ -30,7 +31,11 @@ private:
 	enum State { PLAY = 1, INVINCIBILITY = 2, DEAD = 3 };
 	State _state;
 
+	float _invincibilityTime;
+	bool _hit;
 	int _score;
+
+	
 
 	vector<playerCard*> _vPlayerCard;
 public:
@@ -67,11 +72,18 @@ public:
 	void setDamage(int damage) { _damage = damage; }
 	int getDamage() { return _damage; }
 
+	void setInvincibilityTime(float time) { _invincibilityTime = time; }
+	float getInvincibilityTime() { return _invincibilityTime; }
+
+	void setHit(bool hit) { _hit = hit; }
+	bool getHit() { return _hit; }
+
 	void addScore(int score) { _score += score; }
 	int getScore() { return _score; }
 
 	void setEnemyManagerAdresslink(enemyManager* em) { _em = em; }
 
+	void playerInvincibilityTime();
 	void playerMove();
 	void playerFire();
 	void playerRender();
