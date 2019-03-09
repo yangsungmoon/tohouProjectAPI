@@ -27,6 +27,8 @@ void enemy::init(float x, float y, int hp, float sizeX, float sizeY, float speed
 
 	_my_x = 0;
 	_my_y = 0;
+
+	_hit = false;
 }
 void enemy::update(float my_x, float my_y) {
 	if (_y >= 16 && _state != DEAD) _state = PLAY;
@@ -34,9 +36,11 @@ void enemy::update(float my_x, float my_y) {
 	_my_y = my_y;
 	enemyMove();
 
-	if (isCollision() && _state == PLAY) {
+	if (_state == PLAY && (hpCheck() || isCollision())) {
 		_state = DEAD;
 	}
+
+	
 }
 void enemy::render() {
 		//Ellipse(getMemDC(), _x, _y, _x + _sizeX, _y + _sizeY);
@@ -59,11 +63,14 @@ RECT enemy::getRect() {
 }
 
 bool enemy::hpCheck() {
-	if (getHp() <= 0) {
-		
-		return true;
+	if (_hit) {
+		_hit = false;
+		_hp -= 10;
+		if (_hp <= 0) {
+			return true;
+		}
 	}
-
+	
 	return false;
 }
 bool enemy::isCollision() {

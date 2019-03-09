@@ -26,9 +26,12 @@ private:
 
 	enum State { PLAY = 1, INVINCIBILITY = 2, DEAD = 3 };
 	State _state;
+
 	float x;
 	float _my_x;
 	float _my_y;
+
+	bool _hit;
 public:
 	enemy();
 	enemy(int, int);
@@ -67,6 +70,9 @@ public:
 
 	void setDamage(int damage) { _damage = damage; }
 	int getDamage() { return _damage; }
+
+	void setHit(bool hit) { _hit = hit; }
+	bool getHit() { return _hit; }
 
 	virtual void enemyMove() {};
 	virtual enemyCard* enemyAttack(float x, float y) { return NULL; };
